@@ -16,4 +16,4 @@ public class StudentAnalyzerTest {
         assertEquals(8.16, analyzer.calculateValidAverage(Arrays.asList(9.0, 8.5, 7.0)), 0.01);
     }
 }
-//
+///
