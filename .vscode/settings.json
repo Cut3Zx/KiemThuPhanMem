@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "src",
+        "test"
+    ],
+    "java.project.referencedLibraries": [
+        "c:\\Users\\Nhu Vu\\OneDrive\\Máy tính\\unit-test\\lib\\junit-platform-console-standalone-1.13.0-M3.jar"
+    ]
+}
