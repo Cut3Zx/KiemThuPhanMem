@@ -1,6 +1,6 @@
 
 import java.util.List;
-
+// Count excellent
 public class StudentAnalyzer {
     public int countExcellentStudents(List<Double> scores) {
         if (scores == null || scores.isEmpty()) return 0;
