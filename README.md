@@ -5,7 +5,7 @@
 ## Thông tin sinh viên
 - **Họ và tên:** Vũ Việt Hòa
 - **MSSV:** BIT230162
-- **Lớp:** 23IT5
+- **Lớp:** SOFT5
 **Bài tập - Trải nghiệm giao diện UI Quality (Can't Unsee)**
 
 Đây là bài tập thực hành kiểm tra UI/UX Design Awareness trên trang web Can't Unsee. Bài tập yêu cầu:
@@ -16,6 +16,7 @@
 **Mục tiêu:** Nâng cao nhận thức về chất lượng thiết kế giao diện và kỹ năng quan sát chi tiết.
 
 **Kết quả:**
+<img width="1919" height="1011" alt="image" src="https://github.com/user-attachments/assets/dfe2e8a0-63ab-4ae8-9b95-78e0dc6a9575" />
 
 
 ## Mô tả dự án
