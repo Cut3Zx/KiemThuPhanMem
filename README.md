@@ -1,3 +1,5 @@
+<img width="1919" height="1011" alt="image" src="https://github.com/user-attachments/assets/f3d918ce-95c9-4a12-bf1b-eefb0c2816db" />
+
 # Bài tập Unit Test với JUnit 5 - Phân tích điểm học sinh
 
 ## Thông tin sinh viên
