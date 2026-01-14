@@ -44,7 +44,7 @@ unit-test/
 - **Tính toán:** (9.0 + 8.5 + 7.0) / 3 = 8.166...
 - **Kết quả:** Passed
 
-## 5. Kết quả cuối cùng
-✅ **Tất cả các ca kiểm thử đều Passed**
+## 4. Kết quả cuối cùng
+ **Tất cả các ca kiểm thử đều Passed**
 - Test coverage bao quát: Normal cases, Edge cases, Exception cases
 - Không có lỗi hoặc cảnh báo
