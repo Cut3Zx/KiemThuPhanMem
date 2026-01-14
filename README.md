@@ -1,4 +1,4 @@
-<img width="1919" height="1011" alt="image" src="https://github.com/user-attachments/assets/f3d918ce-95c9-4a12-bf1b-eefb0c2816db" />
+
 
 # Bài tập Unit Test với JUnit 5 - Phân tích điểm học sinh
 
@@ -6,6 +6,17 @@
 - **Họ và tên:** Vũ Việt Hòa
 - **MSSV:** BIT230162
 - **Lớp:** 23IT5
+**Bài tập - Trải nghiệm giao diện UI Quality (Can't Unsee)**
+
+Đây là bài tập thực hành kiểm tra UI/UX Design Awareness trên trang web Can't Unsee. Bài tập yêu cầu:
+- Xác định và so sánh sự khác biệt giữa các mẫu thiết kế giao diện
+- Nhận biết các vấn đề UI/UX thông thường
+- Hiểu rõ hơn về các nguyên tắc thiết kế giao diện tốt
+
+**Mục tiêu:** Nâng cao nhận thức về chất lượng thiết kế giao diện và kỹ năng quan sát chi tiết.
+
+**Kết quả:**
+
 
 ## Mô tả dự án
 Dự án thực hành Unit Test sử dụng JUnit 5 để kiểm thử các hàm phân tích điểm học sinh. Mục tiêu là viết các test case bao quát (normal case, edge case, exception case) để đảm bảo tính đúng đắn của các hàm trong lớp `StudentAnalyzer`.
