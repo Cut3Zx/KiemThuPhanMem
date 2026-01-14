@@ -44,13 +44,6 @@ unit-test/
 - **Tính toán:** (9.0 + 8.5 + 7.0) / 3 = 8.166...
 - **Kết quả:** Passed
 
-## 4. Hướng dẫn chạy Test
-1. Mở dự án bằng **Visual Studio Code**
-2. Đảm bảo đã cài đặt **Extension Pack for Java**
-3. Nhấp vào tab **Testing** (biểu tượng bình thí nghiệm) ở thanh công cụ bên trái
-4. Nhấn nút **Play** ▶️ để chạy toàn bộ kiểm thử
-5. Hoặc chạy từng test bằng cách nhấp nút **Play** bên cạnh từng test case
-
 ## 5. Kết quả cuối cùng
 ✅ **Tất cả các ca kiểm thử đều Passed**
 - Test coverage bao quát: Normal cases, Edge cases, Exception cases
