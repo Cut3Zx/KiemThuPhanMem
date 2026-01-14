@@ -1,11 +1,11 @@
 # Bài tập Unit Test với JUnit 5 - Phân tích điểm học sinh
 
-## 📋 Thông tin sinh viên
+## Thông tin sinh viên
 - **Họ và tên:** Vũ Việt Hòa
 - **MSSV:** BIT230162
 - **Lớp:** 23IT5
 
-## 📝 Mô tả dự án
+## Mô tả dự án
 Dự án thực hành Unit Test sử dụng JUnit 5 để kiểm thử các hàm phân tích điểm học sinh. Mục tiêu là viết các test case bao quát (normal case, edge case, exception case) để đảm bảo tính đúng đắn của các hàm trong lớp `StudentAnalyzer`.
 
 ## 1. Chức năng chính
@@ -36,13 +36,13 @@ unit-test/
 ### Test 1: `testCountExcellentStudents()`
 - **Input:** `[9.0, 8.5, 7.0, 11.0, -1.0]`
 - **Expected:** `2` (9.0 và 8.5 >= 8.0, loại bỏ 11.0 và -1.0 vì ngoài phạm vi)
-- **Kết quả:** ✅ Passed
+- **Kết quả:** Passed
 
 ### Test 2: `testCalculateValidAverage()`
 - **Input:** `[9.0, 8.5, 7.0]`
 - **Expected:** `8.16` (với sai số 0.01)
 - **Tính toán:** (9.0 + 8.5 + 7.0) / 3 = 8.166...
-- **Kết quả:** ✅ Passed
+- **Kết quả:** Passed
 
 ## 4. Hướng dẫn chạy Test
 1. Mở dự án bằng **Visual Studio Code**
