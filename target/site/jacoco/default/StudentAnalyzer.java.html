@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>StudentAnalyzer.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Student Analyzer</a> &gt; <a href="index.source.html" class="el_package">default</a> &gt; <span class="el_source">StudentAnalyzer.java</span></div><h1>StudentAnalyzer.java</h1><pre class="source lang-java linenums">
+import java.util.List;
+// Count excellent
+<span class="fc" id="L4">public class StudentAnalyzer {</span>
+    public int countExcellentStudents(List&lt;Double&gt; scores) {
+<span class="fc bfc" id="L6" title="All 4 branches covered.">        if (scores == null || scores.isEmpty()) return 0;</span>
+<span class="fc" id="L7">        int count = 0;</span>
+<span class="fc bfc" id="L8" title="All 2 branches covered.">        for (Double score : scores) {</span>
+<span class="pc bpc" id="L9" title="1 of 8 branches missed.">            if (score != null &amp;&amp; score &gt;= 0 &amp;&amp; score &lt;= 10 &amp;&amp; score &gt;= 8.0) count++;</span>
+<span class="fc" id="L10">        }</span>
+<span class="fc" id="L11">        return count;</span>
+    }
+
+    public double calculateValidAverage(List&lt;Double&gt; scores) {
+<span class="pc bpc" id="L15" title="1 of 4 branches missed.">        if (scores == null || scores.isEmpty()) return 0.0;</span>
+<span class="fc" id="L16">        double sum = 0;</span>
+<span class="fc" id="L17">        int validCount = 0;</span>
+<span class="fc bfc" id="L18" title="All 2 branches covered.">        for (Double score : scores) {</span>
+<span class="pc bpc" id="L19" title="1 of 6 branches missed.">            if (score != null &amp;&amp; score &gt;= 0 &amp;&amp; score &lt;= 10) {</span>
+<span class="fc" id="L20">                sum += score;</span>
+<span class="fc" id="L21">                validCount++;</span>
+            }
+<span class="fc" id="L23">        }</span>
+<span class="pc bpc" id="L24" title="1 of 2 branches missed.">        return (validCount == 0) ? 0 : sum / validCount;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

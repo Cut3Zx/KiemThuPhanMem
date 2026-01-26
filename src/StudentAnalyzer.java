@@ -6,7 +6,7 @@ public class StudentAnalyzer {
         if (scores == null || scores.isEmpty()) return 0;
         int count = 0;
         for (Double score : scores) {
-            if (score != null && score >= 0 && score <= 10 && score >= 8.0) count++;
+            if (score != null && score >= 0 && score <= 10 && score > 8.0) count++;
         }
         return count;
     }

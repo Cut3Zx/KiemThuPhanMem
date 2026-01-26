@@ -5,6 +5,17 @@
 - **MSSV:** BIT230162
 - **Lớp:** 23IT5
 
+**Bài tập - Trải nghiệm giao diện UI Quality (Can't Unsee)**
+
+Đây là bài tập thực hành kiểm tra UI/UX Design Awareness trên trang web [Can't Unsee](https://cantunsee.space/). Bài tập yêu cầu:
+- Xác định và so sánh sự khác biệt giữa các mẫu thiết kế giao diện
+- Nhận biết các vấn đề UI/UX thông thường
+- Hiểu rõ hơn về các nguyên tắc thiết kế giao diện tốt
+
+**Mục tiêu:** Nâng cao nhận thức về chất lượng thiết kế giao diện và kỹ năng quan sát chi tiết.
+
+---
+
 ## Mô tả dự án
 Dự án thực hành Unit Test sử dụng JUnit 5 để kiểm thử các hàm phân tích điểm học sinh. Mục tiêu là viết các test case bao quát (normal case, edge case, exception case) để đảm bảo tính đúng đắn của các hàm trong lớp `StudentAnalyzer`.
 
@@ -52,6 +63,6 @@ unit-test/
 5. Hoặc chạy từng test bằng cách nhấp nút **Play** bên cạnh từng test case
 
 ## 5. Kết quả cuối cùng
-✅ **Tất cả các ca kiểm thử đều Passed**
+ **Tất cả các ca kiểm thử đều Passed**
 - Test coverage bao quát: Normal cases, Edge cases, Exception cases
 - Không có lỗi hoặc cảnh báo
