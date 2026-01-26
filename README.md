@@ -65,52 +65,52 @@ unit-test/
 - **Input**: [9.0, 8.5, 7.0]
 - **Expected**: 8.16 (với sai số 0.01)
 - **Tính toán**: (9.0 + 8.5 + 7.0) / 3 = 8.166...
-- **Kết quả**: ✅ Passed
+- **Kết quả**:  Passed
 
 ### Test 3: testCountExcellentNormal()
 - **Input**: [9.0, 8.5, 7.0, 11.0, -1.0]
 - **Expected**: 2
-- **Kết quả**: ✅ Passed
+- **Kết quả**:  Passed
 
 ### Test 4: testCountExcellentEmpty()
 - **Input**: [] (danh sách trống) hoặc null
 - **Expected**: 0
-- **Kết quả**: ✅ Passed
+- **Kết quả**:  Passed
 
 ### Test 5: testCountExcellentBoundaries()
 - **Input**: [0.0, 10.0]
 - **Expected**: 1
-- **Kết quả**: ✅ Passed
+- **Kết quả**:  Passed
 
 ### Test 6: testCountExcellentAllInvalid()
 - **Input**: [-5.0, 15.5, 20.0]
 - **Expected**: 0
-- **Kết quả**: ✅ Passed
+- **Kết quả**:  Passed
 
 ### Test 7: testAverageAllValid()
 - **Input**: [9.0, 8.0, 7.0]
 - **Expected**: 8.0
-- **Kết quả**: ✅ Passed
+- **Kết quả**:  Passed
 
 ### Test 8: testAverageMixed()
 - **Input**: [9.0, -1.0, 7.0, 11.0]
 - **Expected**: 8.0
-- **Kết quả**: ✅ Passed
+- **Kết quả**:  Passed
 
 ### Test 9: testAverageEmpty()
 - **Input**: []
 - **Expected**: 0.0
-- **Kết quả**: ✅ Passed
+- **Kết quả**:  Passed
 
 ### Test 10: testAverageMinMax()
 - **Input**: [0.0, 10.0]
 - **Expected**: 5.0
-- **Kết quả**: ✅ Passed
+- **Kết quả**:  Passed
 
 ### Test 11: testAverageInvalidScores()
 - **Input**: [5.0, -10.0, 10.1]
 - **Expected**: 5.0
-- **Kết quả**: ✅ Passed
+- **Kết quả**:  Passed
 
 ## 3.1. Black-Box Testing
 
@@ -124,7 +124,7 @@ Black-box testing là kỹ thuật kiểm thử dựa trên input/output mà kh�
   - countExcellentStudents: 0 (không có điểm >= 8.0)
   - calculateValidAverage: 6.333 (với sai số 0.001)
 - **Phân vùng**: Vùng 1 - Điểm hợp lệ < 8.0
-- **Kết quả**: ✅ Passed
+- **Kết quả**:  Passed
 
 ### Test 13: testBlackBoxBoundaries()
 **Kỹ thuật**: Boundary Value Analysis - Kiểm tra giá trị biên
@@ -137,7 +137,7 @@ Black-box testing là kỹ thuật kiểm thử dựa trên input/output mà kh�
   - 0.0 (min boundary)
   - 8.0 (threshold boundary)
   - 10.0 (max boundary)
-- **Kết quả**: ✅ Passed
+- **Kết quả**:  Passed
 
 ### Test 14: testCountExcellentAtBoundary()
 **Kỹ thuật**: Exact Boundary Testing
@@ -145,7 +145,7 @@ Black-box testing là kỹ thuật kiểm thử dựa trên input/output mà kh�
 - **Input**: [8.0]
 - **Expected**: 1
 - **Giá trị kiểm tra**: Ngưỡng 8.0 phải được tính là học sinh giỏi
-- **Kết quả**: ✅ Passed
+- **Kết quả**:  Passed
 
 ## 3.2. White-Box Testing
 
@@ -174,7 +174,7 @@ Input: [null, -1.0, 5.0, 8.0, 11.0, 9.5]
 Expected: 2
 ```
 - **Path Coverage**: Đảm bảo tất cả paths được thực thi
-- **Kết quả**: ✅ Passed
+- **Kết quả**:  Passed
 
 ### Test 16: testWhiteBoxLoopCoverage()
 **Kỹ thuật**: Loop Coverage - Phủ vòng lặp
@@ -186,15 +186,15 @@ Expected: 2
   
 **Input 1** (0 iterations): []
 - **Expected**: 0
-- **Kết quả**: ✅ Passed
+- **Kết quả**:  Passed
 
 **Input 2** (1 iteration): [9.0]
 - **Expected**: 1
-- **Kết quả**: ✅ Passed
+- **Kết quả**:  Passed
 
 **Input 3** (multiple iterations): [7.0, 8.0, 9.0, 10.0]
 - **Expected**: 3 (8.0, 9.0, 10.0)
-- **Kết quả**: ✅ Passed
+- **Kết quả**:  Passed
 
 ### Tóm tắt White-Box vs Black-Box Testing
 
@@ -210,7 +210,7 @@ Expected: 2
 
 JaCoCo (Java Code Coverage) là công cụ đo lường độ phủ code, giúp xác định bao nhiêu phần trăm source code được kiểm thử bởi các unit test.
 
-### Hình ảnh j ###
+### Hình ảnh Báo cáo Độ phủ mã nguồn ###
 ![alt text](image-2.png)
 
 
